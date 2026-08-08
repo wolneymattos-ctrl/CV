@@ -11,7 +11,7 @@
 
   const onScroll = () => {
     const y = window.scrollY;
-    nav?.classList.toggle("scrolled", y > 40);
+    nav?.classList.toggle("scrolled", y > 20);
     toTop?.classList.toggle("visible", y > 420);
   };
 
@@ -113,4 +113,21 @@
     { threshold: 0.45 }
   );
   meters.forEach((el) => meterObserver.observe(el));
+
+  document
+    .querySelectorAll(".project-card, .timeline-item, .tech-item, .edu-card")
+    .forEach((card) => {
+      card.addEventListener("mousemove", (event) => {
+        const rect = card.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        const rotateX = ((y - rect.height / 2) / rect.height) * -4;
+        const rotateY = ((x - rect.width / 2) / rect.width) * 4;
+        card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+      });
+
+      card.addEventListener("mouseleave", () => {
+        card.style.transform = "";
+      });
+    });
 })();

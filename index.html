@@ -3,97 +3,121 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Wolney — Economista e Analista de Administração e Finanças. Experiência, formação, projetos e produção técnica." />
-  <title>Wolney | Economia · Administração · Finanças</title>
+  <meta name="description" content="Currículo profissional de Wolney — experiência, formação, projetos e produção técnica." />
+  <title>Wolney Moreira Mattos| Currículo Profissional</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;1,6..72,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="ambient" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="mesh"></span>
+  </div>
+
   <nav class="nav" id="nav">
-    <a class="nav-logo" href="#inicio">Wolney</a>
+    <a class="nav-logo" href="#inicio">Wolney<span>.</span></a>
     <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
       <i class="fa-solid fa-bars"></i>
     </button>
     <ul class="nav-menu" id="navMenu">
-      <li><a href="#sobre">Sobre</a></li>
       <li><a href="#experiencia">Experiência</a></li>
       <li><a href="#formacao">Formação</a></li>
+      <li><a href="#idiomas">Idiomas</a></li>
       <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#contato">Contato</a></li>
+      <li><a href="#producao">Produção</a></li>
     </ul>
   </nav>
 
+  <!-- 1. Foto + frase de efeito -->
   <header class="hero" id="inicio">
-    <div class="hero-media" aria-hidden="true">
-      <img src="Foto_WMM.jpg" alt="" width="1600" height="1200" />
-      <span class="hero-scrim"></span>
-    </div>
+    <div class="hero-layout">
+      <div class="hero-portrait reveal">
+        <div class="portrait-frame">
+          <img src="Foto_WMM.jpg" alt="Foto profissional de Wolney" width="420" height="420" />
+        </div>
+        <div class="availability">
+          <span class="dot"></span>
+          Aberto a novos desafios
+        </div>
+      </div>
 
-    <div class="hero-content">
-      <p class="hero-brand">Wolney</p>
-      <h1>Decisões claras a partir da complexidade.</h1>
-      <p class="hero-lead">
-        Economista e Analista de Administração e Finanças na BHTRANS, com atuação
-        em gestão pública, transporte e trânsito de Belo Horizonte.
-      </p>
-      <div class="hero-cta">
-        <a class="btn btn-solid" href="#contato">Fale comigo</a>
-        <a class="btn btn-line" href="#experiencia">Ver trajetória</a>
+      <div class="hero-text reveal">
+        <p class="hero-role">
+          <i class="fa-solid fa-chart-line"></i>
+          Economia · Administração · Finanças
+        </p>
+        <h1>Wolney Moreira Mattos</h1>
+        <p class="catchphrase">“Transformar complexidade em decisões claras e resultados mensuráveis.”</p>
+        <p class="hero-lead">
+          Economista e Analista de Administração e Finanças na BHTRANS, com atuação
+          em gestão pública, transporte e trânsito de Belo Horizonte.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="#experiencia">
+            <i class="fa-solid fa-briefcase"></i> Trajetória
+          </a>
+          <a class="btn btn-line" href="#projetos">
+            <i class="fa-solid fa-layer-group"></i> Projetos
+          </a>
+        </div>
+        <ul class="hero-metrics">
+          <li>
+            <strong data-count="34">0</strong>
+            <span>anos na BHTRANS</span>
+          </li>
+          <li>
+            <strong data-count="5">0</strong>
+            <span>comissões e grupos</span>
+          </li>
+          <li>
+            <strong data-count="3">0</strong>
+            <span>idiomas</span>
+          </li>
+        </ul>
       </div>
     </div>
-
-    <a class="scroll-cue" href="#sobre" aria-label="Ir para a seção Sobre">
+    <a class="scroll-cue" href="#contato" aria-label="Ir para contatos">
       <span></span>
     </a>
   </header>
 
   <main>
-    <section class="section" id="sobre">
-      <div class="section-intro reveal">
-        <p class="kicker">Sobre</p>
-        <h2>Gestão administrativa e financeira com foco em resultado.</h2>
-        <p>
-          Transformo processos, contratos e indicadores em bases sólidas para a
-          tomada de decisão — da rotina operacional ao planejamento de sistemas
-          inteligentes de transporte.
-        </p>
+    <section class="cta-band reveal" id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato para projetos, oportunidades e parcerias profissionais.</p>
+      <div class="cta-links">
+        <a href="mailto:wmmattos@hotmail.com"><i class="fa-solid fa-envelope"></i> wmmattos@hotmail.com</a>
+        <a href="tel:+5531985310000"><i class="fa-solid fa-phone"></i> (31) 98531-0000</a>
+        <a href="https://linkedin.com/wmmattos" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
       </div>
-
-      <ul class="metrics reveal">
-        <li>
-          <strong data-count="34">0</strong>
-          <span>anos na BHTRANS</span>
-        </li>
-        <li>
-          <strong data-count="5">0</strong>
-          <span>comissões e grupos</span>
-        </li>
-        <li>
-          <strong data-count="3">0</strong>
-          <span>idiomas</span>
-        </li>
-      </ul>
     </section>
 
-    <section class="section section-band" id="experiencia">
+    <!-- 2. Experiência profissional -->
+    <section class="section" id="experiencia">
       <div class="section-intro reveal">
-        <p class="kicker">Carreira</p>
+        <p class="kicker"><i class="fa-solid fa-briefcase"></i> Carreira</p>
         <h2>Experiência profissional</h2>
         <p>Atuação na gestão administrativa e financeira do transporte e trânsito de Belo Horizonte.</p>
       </div>
 
       <div class="timeline">
         <article class="timeline-item reveal">
-          <div class="timeline-mark" aria-hidden="true"></div>
+          <div class="timeline-mark"><i class="fa-solid fa-bus"></i></div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Analista de Administração e Finanças</h3>
               <time>2008 — Em vigor</time>
             </div>
-            <p class="place">BHTRANS — Empresa de Transportes e Trânsito de Belo Horizonte S/A · Belo Horizonte/MG</p>
+            <p class="place">
+              <i class="fa-solid fa-building"></i>
+              BHTRANS — Empresa de Transportes e Trânsito de Belo Horizonte S/A
+            </p>
+            <p class="place"><i class="fa-solid fa-calendar-days"></i> Início: 18/11/2008 · Em vigor</p>
+            <p class="place"><i class="fa-solid fa-location-dot"></i> Belo Horizonte/MG</p>
             <ul>
               <li>Participação no planejamento e execução dos trabalhos administrativos, na gestão de pessoas e no contrato do Projeto SITBus — Sistema Inteligente de Transporte (ITS) para Belo Horizonte.</li>
               <li>Implantação de processos para melhoria na comunicação da equipe.</li>
@@ -120,13 +144,18 @@
         </article>
 
         <article class="timeline-item reveal">
-          <div class="timeline-mark" aria-hidden="true"></div>
+          <div class="timeline-mark"><i class="fa-solid fa-clipboard-list"></i></div>
           <div class="timeline-content">
             <div class="timeline-head">
               <h3>Técnico em Administração</h3>
               <time>1992 — 2008</time>
             </div>
-            <p class="place">BHTRANS — Empresa de Transportes e Trânsito de Belo Horizonte S/A · Belo Horizonte/MG</p>
+            <p class="place">
+              <i class="fa-solid fa-building"></i>
+              BHTRANS — Empresa de Transportes e Trânsito de Belo Horizonte S/A
+            </p>
+            <p class="place"><i class="fa-solid fa-calendar-days"></i> Início: 08/06/1992 · Término: 17/11/2008</p>
+            <p class="place"><i class="fa-solid fa-location-dot"></i> Belo Horizonte/MG</p>
             <ul>
               <li>Controle de ordens e medições dos serviços emitidos pela Gerência.</li>
               <li>Participação na elaboração do orçamento do setor.</li>
@@ -150,51 +179,73 @@
       </div>
     </section>
 
-    <section class="section" id="formacao">
+    <!-- 3. Formação / Eventos / Cursos -->
+    <section class="section section-band" id="formacao">
       <div class="section-intro reveal">
-        <p class="kicker">Capacitação</p>
-        <h2>Formação e cursos</h2>
-        <p>Ciências Econômicas pela UFMG e MBA em Gestão de Projetos com ênfase em Logística pelo IETEC.</p>
+        <p class="kicker"><i class="fa-solid fa-graduation-cap"></i> Capacitação</p>
+        <h2>Formação / Participação em Eventos e Cursos</h2>
+        <p>Formação em Ciências Econômicas pela UFMG e MBA em Gestão de Projetos com ênfase em Logística pelo IETEC.</p>
       </div>
 
-      <div class="edu-list">
-        <article class="edu-item edu-featured reveal">
-          <time>2005</time>
-          <div>
-            <p class="edu-level">Graduação</p>
-            <h3>Faculdade de Ciências Econômicas — FACE/UFMG</h3>
-            <p class="place">Belo Horizonte/MG · Bacharel em Ciências Econômicas</p>
-            <div class="edu-thesis">
-              <p class="edu-thesis-label">Monografia</p>
-              <p>
-                <em>Serviço de Transporte Público por Ônibus em Belo Horizonte: novo modelo de remuneração às subconcessionárias e a introdução da regulação por incentivos</em>
-              </p>
-              <p class="edu-highlight">Indicada pela UFMG ao Prêmio Minas de Economia / BDMG</p>
+      <div class="edu-showcase">
+        <article class="edu-card reveal">
+          <div class="edu-card-top">
+            <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <div>
+              <span class="edu-level">Pós-graduação</span>
+              <h3>MBA em Gestão de Projetos com ênfase em Logística — IETEC</h3>
             </div>
+            <time>2014</time>
+          </div>
+          <ul class="edu-meta">
+            <li><i class="fa-solid fa-location-dot"></i> Belo Horizonte/MG</li>
+            <li><i class="fa-solid fa-diagram-project"></i> Gestão de projetos e logística</li>
+          </ul>
+        </article>
+
+        <article class="edu-card edu-card-featured reveal">
+          <div class="edu-card-top">
+            <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+            <div>
+              <span class="edu-level">Graduação</span>
+              <h3>Faculdade de Ciências Econômicas — FACE/UFMG</h3>
+            </div>
+            <time>2005</time>
+          </div>
+          <ul class="edu-meta">
+            <li><i class="fa-solid fa-location-dot"></i> Belo Horizonte/MG</li>
+            <li><i class="fa-solid fa-award"></i> Bacharel em Ciências Econômicas</li>
+          </ul>
+          <div class="edu-thesis">
+            <p class="edu-thesis-label"><i class="fa-solid fa-book-open"></i> Monografia</p>
+            <p>
+              <em>Serviço de Transporte Público por Ônibus em Belo Horizonte: novo modelo de remuneração às subconcessionárias e a introdução da regulação por incentivos</em>
+            </p>
+            <p class="edu-highlight">
+              <i class="fa-solid fa-trophy"></i>
+              Indicada pela UFMG ao Prêmio Minas de Economia / BDMG
+            </p>
           </div>
         </article>
 
-        <article class="edu-item reveal">
-          <time>2014</time>
-          <div>
-            <p class="edu-level">Pós-graduação</p>
-            <h3>MBA em Gestão de Projetos com ênfase em Logística — IETEC</h3>
-            <p class="place">Belo Horizonte/MG · Gestão de projetos e logística</p>
+        <article class="edu-card reveal">
+          <div class="edu-card-top">
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <div>
+              <span class="edu-level">2º Grau</span>
+              <h3>Colégio Professor Humberto Rosas</h3>
+            </div>
+            <time>1984</time>
           </div>
-        </article>
-
-        <article class="edu-item reveal">
-          <time>1984</time>
-          <div>
-            <p class="edu-level">2º Grau</p>
-            <h3>Colégio Professor Humberto Rosas</h3>
-            <p class="place">Belo Horizonte/MG · Habilitação em Administração de Empresas</p>
-          </div>
+          <ul class="edu-meta">
+            <li><i class="fa-solid fa-location-dot"></i> Belo Horizonte/MG</li>
+            <li><i class="fa-solid fa-briefcase"></i> Habilitação em Administração de Empresas</li>
+          </ul>
         </article>
       </div>
 
       <div class="events-block reveal">
-        <h3 class="block-title">Participação em eventos e cursos</h3>
+        <h3 class="block-title"><i class="fa-solid fa-calendar-check"></i> Participação em Eventos e Cursos</h3>
         <ul class="event-list">
           <li>
             <div class="event-head">
@@ -240,111 +291,125 @@
       </div>
     </section>
 
-    <section class="section section-band" id="idiomas">
+    <!-- 4. Idiomas -->
+    <section class="section" id="idiomas">
       <div class="section-intro reveal">
-        <p class="kicker">Comunicação</p>
+        <p class="kicker"><i class="fa-solid fa-language"></i> Comunicação</p>
         <h2>Idiomas</h2>
         <p>Competência para leitura técnica, escrita e interlocução profissional.</p>
       </div>
 
       <div class="lang-grid">
-        <article class="lang-item reveal">
+        <article class="lang-card reveal">
+          <div class="lang-icon"><i class="fa-solid fa-flag"></i></div>
           <div class="lang-info">
             <h3>Português</h3>
             <p>Nativo</p>
           </div>
-          <div class="meter" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Português nativo">
+          <div class="meter" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
             <span style="--level: 100%"></span>
           </div>
         </article>
 
-        <article class="lang-item reveal">
+        <article class="lang-card reveal">
+          <div class="lang-icon"><i class="fa-solid fa-globe"></i></div>
           <div class="lang-info">
             <h3>Inglês</h3>
             <p>Avançado — leitura e escrita técnicas</p>
           </div>
-          <div class="meter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Inglês avançado">
+          <div class="meter" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
             <span style="--level: 80%"></span>
           </div>
         </article>
 
-        <article class="lang-item reveal">
+        <article class="lang-card reveal">
+          <div class="lang-icon"><i class="fa-solid fa-earth-americas"></i></div>
           <div class="lang-info">
             <h3>Espanhol</h3>
             <p>Intermediário</p>
           </div>
-          <div class="meter" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Espanhol intermediário">
+          <div class="meter" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
             <span style="--level: 55%"></span>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section" id="projetos">
+    <!-- 5. Projetos / Comissões -->
+    <section class="section section-band" id="projetos">
       <div class="section-intro reveal">
-        <p class="kicker">Atuação</p>
-        <h2>Projetos e comissões</h2>
+        <p class="kicker"><i class="fa-solid fa-people-group"></i> Atuação</p>
+        <h2>Projetos / Participação em Comissões</h2>
         <p>Participação em comissões, grupos de trabalho e iniciativas institucionais na BHTRANS.</p>
       </div>
 
-      <ul class="commission-list reveal">
-        <li>
-          <strong>Comissão de Testes para implantação de radares em Belo Horizonte/MG</strong>
-          <span>Portaria BHTRANS DPR nº 036/2008 · D.O.M. Belo Horizonte, Ano XV — Edição nº 3.051</span>
-        </li>
-        <li>
-          <strong>Comissão Permanente de Licitação</strong>
-          <span>Membro da equipe de apoio · D.O.M. Belo Horizonte, Ano XV — Edição nº 3.266</span>
-        </li>
-        <li>
-          <strong>Comissão pela Qualidade Interna BHTRANS</strong>
-          <span>Membro da equipe GEAOP para elaboração do Relatório Técnico (2005–2006) · Resultado: 2ª colocada na auditoria interna</span>
-        </li>
-        <li>
-          <strong>Grupo Gestor de Informação</strong>
-          <span>Elaboração do Portal Corporativo · Representante GEAOP/BHTRANS — 2008</span>
-        </li>
-        <li>
-          <strong>Grupo para treinamento de Equipes Operacionais</strong>
-          <span>Tema: Fluxos de Processos Administrativos · GEAOP/BHTRANS — 2006</span>
-        </li>
-      </ul>
+      <div class="commission-panel reveal">
+        <h3><i class="fa-solid fa-people-group"></i> Participação em Comissões</h3>
+        <ul class="commission-list">
+          <li>
+            <strong>Comissão de Testes para implantação de radares em Belo Horizonte/MG</strong>
+            <span>Portaria BHTRANS DPR nº 036/2008 · D.O.M. Belo Horizonte, Ano XV — Edição nº 3.051</span>
+          </li>
+          <li>
+            <strong>Comissão Permanente de Licitação</strong>
+            <span>Membro da equipe de apoio · D.O.M. Belo Horizonte, Ano XV — Edição nº 3.266</span>
+          </li>
+          <li>
+            <strong>Comissão pela Qualidade Interna BHTRANS</strong>
+            <span>Membro da equipe GEAOP para elaboração do Relatório Técnico (2005–2006) · Resultado: 2ª colocada na auditoria interna</span>
+          </li>
+          <li>
+            <strong>Grupo Gestor de Informação</strong>
+            <span>Elaboração do Portal Corporativo · Representante GEAOP/BHTRANS — 2008</span>
+          </li>
+          <li>
+            <strong>Grupo para treinamento de Equipes Operacionais</strong>
+            <span>Tema: Fluxos de Processos Administrativos · GEAOP/BHTRANS — 2006</span>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="section section-band" id="producao">
+    <!-- 6. Produção Técnica -->
+    <section class="section" id="producao">
       <div class="section-intro reveal">
-        <p class="kicker">Entregas</p>
-        <h2>Produção técnica</h2>
+        <p class="kicker"><i class="fa-solid fa-file-lines"></i> Entregas</p>
+        <h2>Produção Técnica</h2>
         <p>Documentos, materiais e produtos técnicos elaborados ao longo da trajetória profissional.</p>
       </div>
 
-      <ul class="tech-list">
-        <li class="tech-item reveal">
-          <h3>Manuais e procedimentos operacionais</h3>
-          <p>Elaboração e atualização de manuais, fluxogramas e instruções de trabalho para padronização de rotinas.</p>
-        </li>
-        <li class="tech-item reveal">
-          <h3>Notas e pareceres técnicos</h3>
-          <p>Análises, recomendações e documentação de apoio a decisões gerenciais e projetos institucionais.</p>
-        </li>
-        <li class="tech-item reveal">
-          <h3>Materiais de capacitação</h3>
-          <p>Apresentações, roteiros e conteúdos de treinamento para implantação de sistemas e novas práticas.</p>
-        </li>
-        <li class="tech-item reveal">
-          <h3>Relatórios e painéis analíticos</h3>
-          <p>Produção periódica de relatórios gerenciais, séries históricas e visualizações para monitoramento.</p>
-        </li>
-      </ul>
-    </section>
+      <div class="tech-list">
+        <article class="tech-item reveal">
+          <div class="tech-icon"><i class="fa-solid fa-book"></i></div>
+          <div>
+            <h3>Manuais e procedimentos operacionais</h3>
+            <p>Elaboração e atualização de manuais, fluxogramas e instruções de trabalho para padronização de rotinas.</p>
+          </div>
+        </article>
 
-    <section class="cta-band reveal" id="contato">
-      <h2>Vamos conversar</h2>
-      <p>Entre em contato para projetos, oportunidades e parcerias profissionais.</p>
-      <div class="cta-links">
-        <a href="mailto:wmmattos@hotmail.com"><i class="fa-solid fa-envelope"></i> wmmattos@hotmail.com</a>
-        <a href="tel:+5531985310000"><i class="fa-solid fa-phone"></i> (31) 98531-0000</a>
-        <a href="https://linkedin.com/wmmattos" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+        <article class="tech-item reveal">
+          <div class="tech-icon"><i class="fa-solid fa-file-shield"></i></div>
+          <div>
+            <h3>Notas e pareceres técnicos</h3>
+            <p>Análises, recomendações e documentação de apoio a decisões gerenciais e projetos institucionais.</p>
+          </div>
+        </article>
+
+        <article class="tech-item reveal">
+          <div class="tech-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <div>
+            <h3>Materiais de capacitação</h3>
+            <p>Apresentações, roteiros e conteúdos de treinamento para implantação de sistemas e novas práticas.</p>
+          </div>
+        </article>
+
+        <article class="tech-item reveal">
+          <div class="tech-icon"><i class="fa-solid fa-database"></i></div>
+          <div>
+            <h3>Relatórios e painéis analíticos</h3>
+            <p>Produção periódica de relatórios gerenciais, séries históricas e visualizações para monitoramento.</p>
+          </div>
+        </article>
       </div>
     </section>
   </main>
